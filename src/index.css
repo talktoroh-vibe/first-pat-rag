@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme {
+  --color-tv-brand: #2962FF;
+  --color-tv-bull: #089981;
+  --color-tv-bear: #F23645;
+  --color-tv-muted: #787B86;
+  --color-tv-bgLight: #F0F3FA;
+  --color-tv-border: #E0E3EB;
+  --color-tv-textPrimary: #131722;
+  --color-tv-cardHover: #F8F9FD;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Trebuchet MS", Roboto, Ubuntu, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+@layer utilities {
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
